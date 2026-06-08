@@ -114,11 +114,11 @@ export default function LandingPage() {
           products={[
             { id: "car-mercedes", name: "Luxury Sedan (Mercedes-Benz)", price: "From $150/day", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780940128106-ih7465my.jpg", imageAlt: "White Mercedes-Benz E-Class" },
             { id: "car-bmw", name: "Executive Sedan (BMW)", price: "From $120/day", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780940254844-mer8pkc6.jpg", imageAlt: "Black BMW 5 Series" },
-            { id: "car-audi", name: "Premium Sedan (Audi)", price: "From $100/day", imageSrc: "http://img.b2bpic.net/free-photo/young-modern-muslim-woman-drinking-coffee-car_1303-27641.jpg", imageAlt: "Silver Audi A6" },
-            { id: "car-toyota", name: "Standard Sedan (Toyota)", price: "From $60/day", imageSrc: "http://img.b2bpic.net/free-photo/female-driver-wearing-heels-sitting-her-blue-modern-car_273443-3433.jpg", imageAlt: "White Toyota Camry" },
-            { id: "car-nissan", name: "Economy Sedan (Nissan)", price: "From $45/day", imageSrc: "http://img.b2bpic.net/free-photo/women-with-map-road_23-2147932152.jpg", imageAlt: "Grey Nissan Altima" },
+            { id: "car-audi", name: "Premium (Audi)", price: "From $100/day", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780954029021-xlgasag3.jpg", imageAlt: "Silver Audi A6" },
+            { id: "car-toyota", name: "Standard Sedan (Toyota)", price: "From $60/day", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780954295619-xabm7irb.webp", imageAlt: "White Toyota Camry" },
+            { id: "car-nissan", name: "SUV (Nissan)", price: "From $45/day", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780954495822-rh66hgvs.webp", imageAlt: "Grey Nissan Altima" },
             { id: "tour-dubai", name: "Dubai City Tour Package", price: "From $300", imageSrc: "http://img.b2bpic.net/free-photo/long-range-shot-two-cars-parked-top-sand-dunes-with-clear-blue-sky-sunny-day_181624-2899.jpg", imageAlt: "Dubai skyline with Burj Khalifa" },
-            { id: "tour-georgia", name: "Georgian Mountain Escape", price: "From $500", imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-stairs_23-2148601918.jpg", imageAlt: "Scenic view of Georgian mountains" }
+            { id: "tour-georgia", name: "Georgian Mountain Escape", price: "From $500", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780955088592-x1g4shqc.jpg", imageAlt: "Scenic view of Georgian mountains" }
           ]}
           gridVariant="two-columns-alternating-heights"
           animationType="slide-up"
@@ -148,11 +148,11 @@ export default function LandingPage() {
       <div id="testimonials" data-section="testimonials">
         <TestimonialCardOne
           testimonials={[
-            { id: "1", name: "Ahmed Al-Farsi", role: "Student", company: "UAE", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/elegant-couple-draws-art-studio_1157-30469.jpg", imageAlt: "Ahmed Al-Farsi, satisfied student" },
-            { id: "2", name: "Sophia Lekishvili", role: "Traveler", company: "Georgia", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/smiling-man-proposing-boyfriend-vacation_74855-20359.jpg", imageAlt: "Sophia Lekishvili, happy traveler" },
-            { id: "3", name: "David Gasparyan", role: "Consultancy Client", company: "Armenia", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/crop-man-writing-notepad_23-2147655849.jpg", imageAlt: "David Gasparyan, satisfied client" },
+            { id: "1", name: "Dr. Nour Haider ", role: "Student", company: "UAE", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780955265742-eapj7hmg.png", imageAlt: "Ahmed Al-Farsi, satisfied student" },
+            { id: "2", name: "Sophia Lekishvili", role: "Traveler", company: "Georgia", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780955665697-tvlqutf8.jpg", imageAlt: "Sophia Lekishvili, happy traveler" },
+            { id: "3", name: "David ", role: "Consultancy Client", company: "Armenia", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780955818758-ylk3ivlw.jpg", imageAlt: "David Gasparyan, satisfied client" },
             { id: "4", name: "Amina Usmanova", role: "Car Rental Client", company: "Uzbekistan", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/people-traveling-without-covid-worries_23-2149051607.jpg", imageAlt: "Amina Usmanova, happy car rental customer" },
-            { id: "5", name: "Nurlan Bekbolotov", role: "Student", company: "Kyrgyzstan", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/young-woman-model-posing-with-books-earth-globe-red-wall_114579-56010.jpg", imageAlt: "Nurlan Bekbolotov, successful student" },
+            { id: "5", name: "Hudha Bekbolotov", role: "Student", company: "Kyrgyzstan", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780955985716-uy21zwa2.jpg", imageAlt: "Nurlan Bekbolotov, successful student" },
             { id: "6", name: "Thandiwe Mkhize", role: "Tourism Client", company: "South Africa", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/successful-business-people-with-speech-bubbles_53876-15199.jpg", imageAlt: "Thandiwe Mkhize, happy tourist" }
           ]}
           carouselMode="buttons"
