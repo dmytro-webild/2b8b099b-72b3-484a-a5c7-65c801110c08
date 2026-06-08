@@ -111,8 +111,8 @@ export default function LandingPage() {
       <div id="destinations" data-section="destinations">
         <ProductCardThree
           products={[
-            { id: "car-mercedes", name: "Luxury Sedan (Mercedes-Benz)", price: "From $150/day", imageSrc: "http://img.b2bpic.net/free-photo/indian-businessman-adjusts-his-glasses_496169-2742.jpg", imageAlt: "White Mercedes-Benz E-Class" },
-            { id: "car-bmw", name: "Executive Sedan (BMW)", price: "From $120/day", imageSrc: "http://img.b2bpic.net/free-photo/elegant-uber-driver-giving-taxi-ride_23-2149241748.jpg", imageAlt: "Black BMW 5 Series" },
+            { id: "car-mercedes", name: "Luxury Sedan (Mercedes-Benz)", price: "From $150/day", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780940128106-ih7465my.jpg", imageAlt: "White Mercedes-Benz E-Class" },
+            { id: "car-bmw", name: "Executive Sedan (BMW)", price: "From $120/day", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780940254844-mer8pkc6.jpg", imageAlt: "Black BMW 5 Series" },
             { id: "car-audi", name: "Premium Sedan (Audi)", price: "From $100/day", imageSrc: "http://img.b2bpic.net/free-photo/young-modern-muslim-woman-drinking-coffee-car_1303-27641.jpg", imageAlt: "Silver Audi A6" },
             { id: "car-toyota", name: "Standard Sedan (Toyota)", price: "From $60/day", imageSrc: "http://img.b2bpic.net/free-photo/female-driver-wearing-heels-sitting-her-blue-modern-car_273443-3433.jpg", imageAlt: "White Toyota Camry" },
             { id: "car-nissan", name: "Economy Sedan (Nissan)", price: "From $45/day", imageSrc: "http://img.b2bpic.net/free-photo/women-with-map-road_23-2147932152.jpg", imageAlt: "Grey Nissan Altima" },
