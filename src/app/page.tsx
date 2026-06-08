@@ -36,7 +36,7 @@ export default function LandingPage() {
       <div id="nav" data-section="nav" className={`${montserrat.variable}`}>
         <NavbarLayoutFloatingOverlay
           brandName="Oxin International Group"
-          logoSrc="http://img.b2bpic.net/free-vector/global-corporation-logo_1043-184.jpg"
+          logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780938591224-a8st3ipv.jpg"
           logoAlt="Oxin International Group Logo"
           navItems={[
             { name: "Home", id: "#home" },
@@ -200,7 +200,7 @@ export default function LandingPage() {
           description="Whether for studies, travel, or mobility, our team is here to assist you. Contact us today for personalized support."
           buttons={[
             { text: "Send a Message", href: "mailto:info@oxin.com" },
-            { text: "Call Us", href: "tel:+1234567890" }
+            { text: "Call Us", href: "tel:+995595156470" }
           ]}
           background={{ variant: "sparkles-gradient" }}
           useInvertedBackground={false}
@@ -214,7 +214,7 @@ export default function LandingPage() {
             { title: "Legal", items: [{ label: "Privacy Policy", href: "#" }, { label: "Terms of Service", href: "#" }] }
           ]}
           logoText="Oxin International Group"
-          logoSrc="http://img.b2bpic.net/free-vector/global-corporation-logo_1043-184.jpg"
+          logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780938591224-a8st3ipv.jpg"
           logoAlt="Oxin International Group Logo"
           copyrightText="© 2024 Oxin International Group. All rights reserved."
         />
