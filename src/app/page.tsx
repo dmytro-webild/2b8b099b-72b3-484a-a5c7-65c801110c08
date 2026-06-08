@@ -153,7 +153,7 @@ export default function LandingPage() {
             { id: "3", name: "David ", role: "Consultancy Client", company: "Armenia", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780955818758-ylk3ivlw.jpg", imageAlt: "David Gasparyan, satisfied client" },
             { id: "4", name: "Amina Usmanova", role: "Car Rental Client", company: "Uzbekistan", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/people-traveling-without-covid-worries_23-2149051607.jpg", imageAlt: "Amina Usmanova, happy car rental customer" },
             { id: "5", name: "Hudha Bekbolotov", role: "Student", company: "Kyrgyzstan", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780955985716-uy21zwa2.jpg", imageAlt: "Nurlan Bekbolotov, successful student" },
-            { id: "6", name: "Thandiwe Mkhize", role: "Tourism Client", company: "South Africa", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/successful-business-people-with-speech-bubbles_53876-15199.jpg", imageAlt: "Thandiwe Mkhize, happy tourist" }
+            { id: "6", name: "Thandiwe Mkhize", role: "Pilot Student ", company: "South Africa", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780956641131-x7h8gm7u.jpg", imageAlt: "Thandiwe Mkhize, happy tourist" }
           ]}
           carouselMode="buttons"
           gridVariant="uniform-all-items-equal"
