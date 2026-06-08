@@ -112,7 +112,7 @@ export default function LandingPage() {
       <div id="destinations" data-section="destinations">
         <ProductCardThree
           products={[
-            { id: "car-mercedes", name: "Luxury SUV (Mercedes-Benz)", price: "From $150/day", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780940128106-ih7465my.jpg", imageAlt: "White Mercedes-Benz E-Class" },
+            { id: "car-mercedes", name: "Luxury SUV (Mercedes-Benz)", price: "From $250/day", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780940128106-ih7465my.jpg", imageAlt: "White Mercedes-Benz E-Class" },
             { id: "car-bmw", name: "Executive Sedan (BMW)", price: "From $120/day", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780940254844-mer8pkc6.jpg", imageAlt: "Black BMW 5 Series" },
             { id: "car-audi", name: "Premium (Audi)", price: "From $100/day", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780954029021-xlgasag3.jpg", imageAlt: "Silver Audi A6" },
             { id: "car-toyota", name: "Standard Sedan (Toyota)", price: "From $60/day", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780954295619-xabm7irb.webp", imageAlt: "White Toyota Camry" },
