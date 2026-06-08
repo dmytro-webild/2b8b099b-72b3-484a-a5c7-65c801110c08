@@ -10,8 +10,8 @@ import { Montserrat } from "next/font/google";
 
 
 export const metadata: Metadata = {
-  title: 'Oxin International Group | Global Admissions, Tourism & Car Rental',
-  description: 'Oxin International Group offers expert student consultancy, seamless admissions, unforgettable tourism experiences, and reliable car rentals in UAE, Georgia, Armenia, Uzbekistan, Kyrgyzstan, and South Africa.',
+  title: "Oxin International Group | Global Admissions, Tourism & Car Rental",
+  description: "Oxin International Group offers expert student consultancy, seamless admissions, unforgettable tourism experiences, and reliable car rentals in UAE, Georgia, Armenia, Uzbekistan, Kyrgyzstan, and South Africa.",
   keywords: ["student admissions, student consultancy, tourism, rent a car, UAE, Georgia, Armenia, Uzbekistan, Kyrgyzstan, South Africa, global education, travel, international group"],
   openGraph: {
     "title": "Oxin International Group | Global Admissions, Tourism & Car Rental",
