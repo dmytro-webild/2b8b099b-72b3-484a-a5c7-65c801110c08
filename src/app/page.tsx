@@ -36,7 +36,7 @@ export default function LandingPage() {
       <div id="nav" data-section="nav" className={`${montserrat.variable}`}>
         <NavbarLayoutFloatingOverlay
           brandName="Oxin International Group"
-          logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780938591224-a8st3ipv.jpg"
+          logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780938897129-l5emtpc4.png"
           logoAlt="Oxin International Group Logo"
           navItems={[
             { name: "Home", id: "#home" },
@@ -214,7 +214,7 @@ export default function LandingPage() {
             { title: "Legal", items: [{ label: "Privacy Policy", href: "#" }, { label: "Terms of Service", href: "#" }] }
           ]}
           logoText="Oxin International Group"
-          logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780938591224-a8st3ipv.jpg"
+          logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780938897129-l5emtpc4.png"
           logoAlt="Oxin International Group Logo"
           copyrightText="© 2024 Oxin International Group. All rights reserved."
         />
