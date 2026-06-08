@@ -218,6 +218,7 @@ export default function LandingPage() {
           logoText="Oxin International Group"
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780938897129-l5emtpc4.png"
           logoAlt="Oxin International Group Logo"
+          logoImageClassName="h-24"
           copyrightText="© 2022 Oxin International Group. All rights reserved."
         />
       </div>
