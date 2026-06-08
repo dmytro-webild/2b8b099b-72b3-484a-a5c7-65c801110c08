@@ -199,7 +199,7 @@ export default function LandingPage() {
         <ContactCTA
           tag="Get in Touch"
           title="Ready to Start Your Global Journey?"
-          description="Whether for studies, travel, or mobility, our team is here to assist you. Contact us today for personalized support."
+          description="Whether for studies, travel, or mobility, our team is here to assist you. Contact us today for personalized support. You can also reach us directly at +995595156470."
           buttons={[
             { text: "Send a Message", href: "mailto:info@oxin.com" },
             { text: "Call Us", href: "tel:+995595156470" }
