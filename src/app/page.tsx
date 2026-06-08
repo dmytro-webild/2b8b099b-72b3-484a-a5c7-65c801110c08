@@ -38,6 +38,7 @@ export default function LandingPage() {
           brandName="Oxin International Group"
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780938897129-l5emtpc4.png"
           logoAlt="Oxin International Group Logo"
+          logoImageClassName="h-12"
           navItems={[
             { name: "Home", id: "#home" },
             { name: "About", id: "#about" },
