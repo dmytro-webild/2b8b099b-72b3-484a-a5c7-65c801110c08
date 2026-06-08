@@ -77,7 +77,6 @@ export default function LandingPage() {
           imageSrc="http://img.b2bpic.net/free-photo/full-shot-friends-traveling-together_52683-126499.jpg"
           imageAlt="Students with luggage in airport with global map overlay"
           mediaAnimation="slide-up"
-          useInvertedBackground={false}
           imagePosition="right"
         />
       </div>
@@ -90,7 +89,6 @@ export default function LandingPage() {
             { text: "Our Vision", href: "#" }
           ]}
           useInvertedBackground={true}
-          description="At Oxin International Group, we are dedicated to transforming aspirations into reality. With a presence across the UAE, Georgia, Armenia, Uzbekistan, Kyrgyzstan, and South Africa, we provide unparalleled support in education, travel, and mobility. Our expert team ensures personalized guidance every step of the way, from securing university admissions to arranging your dream vacation or a convenient car rental."
         />
       </div>
       <div id="services" data-section="services">
