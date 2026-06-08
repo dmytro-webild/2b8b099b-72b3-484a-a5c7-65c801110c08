@@ -53,7 +53,8 @@ export default function LandingPage() {
       </div>
       <div id="home" data-section="home">
         <HeroSplitKpi
-          title="Your Gateway to Global Opportunities"
+          title="Oxin International Group"
+          titleClassName="text-center text-6xl md:text-7xl lg:text-8xl xl:text-9xl !leading-tight"
           description="Oxin International Group specializes in student consultancy, seamless admissions, unforgettable tourism experiences, and convenient car rentals across the UAE, Georgia, Armenia, Uzbekistan, Kyrgyzstan, and South Africa."
           background={{ variant: "radial-gradient" }}
           kpis={[
