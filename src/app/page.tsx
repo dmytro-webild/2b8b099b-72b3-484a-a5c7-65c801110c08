@@ -186,7 +186,7 @@ export default function LandingPage() {
       <div id="social-proof" data-section="social-proof">
         <SocialProofOne
           names={[
-            "Global Universities",            "International Airlines",            ""Luxury Car Brands"",            "Visa & Immigration Partners",            "Education Platforms",            "Premium Hotel Chains",            "Financial Institutions"
+            "Global Universities",            "International Airlines",            "Luxury Car Brands",            "Visa & Immigration Partners",            "Education Platforms",            "Premium Hotel Chains",            "Financial Institutions"
           ]}
           title="Our Esteemed Partners"
           description="Collaborating with leading institutions and brands to deliver excellence in every service we provide."
