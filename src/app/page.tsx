@@ -214,7 +214,7 @@ export default function LandingPage() {
             { title: "Services", items: [{ label: "Student Admissions", href: "#services" }, { label: "Student Consultancy", href: "#services" }, { label: "Tourism", href: "#destinations" }, { label: "Rent a Car", href: "#destinations" }] },
             { title: "Company", items: [{ label: "About Us", href: "#about" }, { label: "Testimonials", href: "#testimonials" }, { label: "Our Partners", href: "#social-proof" }, { label: "Contact Us", href: "#contact" }] },
             { title: "Legal", items: [{ label: "Privacy Policy", href: "#" }, { label: "Terms of Service", href: "#" }] },
-            { title: "Social", items: [{ label: "Instagram", href: "https://www.instagram.com/oxin_intl/" }] }
+            { title: "Social", items: [{ label: "Instagram", href: "https://www.instagram.com/oxin_intl/" }, { label: "WhatsApp", href: "https://wa.me/message/6T4GLQJPF5S2J1" }] }
           ]}
           logoText="Oxin International Group"
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780938897129-l5emtpc4.png"
