@@ -238,7 +238,7 @@ export default function LandingPage() {
             { title: "Social", items: [{ label: "Instagram", href: "https://www.instagram.com/oxin_intl/" }, { label: "WhatsApp", href: "https://wa.me/message/6T4GLQJPF5S2J1" }] }
           ]}
           logoText="Oxin International Group"
-          logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780938897129-l5emtpc4.png"
+          logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780981421786-ret6gm35.png"
           logoAlt="Oxin International Group Logo"
           logoImageClassName="h-24"
           copyrightText="© 2022 Oxin International Group. All rights reserved."
