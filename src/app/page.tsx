@@ -12,6 +12,7 @@ import FaqDouble from '@/components/sections/faq/FaqDouble';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FooterBase from '@/components/sections/footer/FooterBase';
+import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import { Globe, GraduationCap, Users, Plane, Car } from "lucide-react";
 import { Montserrat } from "next/font/google";
 
@@ -43,6 +44,7 @@ export default function LandingPage() {
             { name: "Home", id: "#home" },
             { name: "About", id: "#about" },
             { name: "Services", id: "#services" },
+            { name: "Universities & Places", id: "#universities-places" },
             { name: "Destinations", id: "#destinations" },
             { name: "Testimonials", id: "#testimonials" },
             { name: "FAQ", id: "#faq" },
@@ -91,6 +93,25 @@ export default function LandingPage() {
             { text: "Our Vision", href: "#" }
           ]}
           useInvertedBackground={true}
+        />
+      </div>
+      <div id="universities-places" data-section="universities-places">
+        <ProductCardOne
+          title="Our Global Network & Destinations"
+          description="Discover the esteemed universities we partner with and the breathtaking destinations we help you explore."
+          tag="Education & Exploration"
+          products={[
+            { id: "uni-cambridge", name: "Cambridge University", price: "Cambridge, UK", imageSrc: "https://images.unsplash.com/photo-1627993078426-3832152a51a1?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&h=600&fit=crop&ixid=MnwzNTY3MHwwfDF8c2VhcmNofDE1fHx1bml2ZXJzaXR5fGVufDB8fHx8MTY4NTQ3NjQxNg", imageAlt: "Cambridge University campus" },
+            { id: "place-dubai", name: "Iconic Dubai", price: "Dubai, UAE", imageSrc: "http://img.b2bpic.net/free-photo/long-range-shot-two-cars-parked-top-sand-dunes-with-clear-blue-sky-sunny-day_181624-2899.jpg", imageAlt: "Dubai Desert Safari" },
+            { id: "uni-georgian", name: "Georgian National University", price: "Tbilisi, Georgia", imageSrc: "https://images.unsplash.com/photo-1543781534-1c4b787d55d2?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&h=600&fit=crop&ixid=MnwzNTY3MHwwfDF8c2VhcmNofDE4fHx1bml2ZXJzaXR5fGVufDB8fHx8MTY4NTQ3NjQxNg", imageAlt: "Georgian National University campus" },
+            { id: "people-students", name: "Vibrant Student Life", price: "Global Campuses", imageSrc: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&h=600&fit=crop&ixid=MnwzNTY3MHwwfDF8c2VhcmNofDExfHxzdHVkZW50JTIwZ3JvdXB8ZW58MHx8fHwxNjg1NDc2MzY5", imageAlt: "Students in a group discussion" },
+            { id: "place-armenia", name: "Armenian Highlands", price: "Yerevan, Armenia", imageSrc: "http://img.b2bpic.net/free-photo/nature-mountain-landscape-background-mountains-clouds-horizon-sunny-day-travel-concept-generative-ai_188544-11440.jpg", imageAlt: "Mount Ararat view from Armenia" },
+            { id: "uni-uae", name: "UAE University", price: "Al Ain, UAE", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780954029021-xlgasag3.jpg", imageAlt: "UAE University campus" }
+          ]}
+          gridVariant="three-columns-all-equal-width"
+          animationType="slide-up"
+          textboxLayout="default"
+          useInvertedBackground={false}
         />
       </div>
       <div id="services" data-section="services">
