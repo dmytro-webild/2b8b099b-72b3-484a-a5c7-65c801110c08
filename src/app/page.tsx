@@ -102,11 +102,11 @@ export default function LandingPage() {
           tag="Education & Exploration"
           products={[
             { id: "uni-cambridge", name: "Cambridge University", price: "Cambridge, UK", imageSrc: "https://images.unsplash.com/photo-1627993078426-3832152a51a1?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&h=600&fit=crop&ixid=MnwzNTY3MHwwfDF8c2VhcmNofDE1fHx1bml2ZXJzaXR5fGVufDB8fHx8MTY4NTQ3NjQxNg", imageAlt: "Cambridge University campus" },
-            { id: "place-dubai", name: "Iconic Dubai", price: "Dubai, UAE", imageSrc: "http://img.b2bpic.net/free-photo/long-range-shot-two-cars-parked-top-sand-dunes-with-clear-blue-sky-sunny-day_181624-2899.jpg", imageAlt: "Dubai Desert Safari" },
+            { id: "place-dubai", name: "Iconic Dubai", price: "Dubai, UAE", imageSrc: "http://img.b2bpic.net/free-photo/long-range-shot-two-cars-parked-top-sand-dunes-with-clear-blue-sky-sunny-day_181624-2899.jpg?_wi=1", imageAlt: "Dubai Desert Safari" },
             { id: "uni-georgian", name: "Georgian National University", price: "Tbilisi, Georgia", imageSrc: "https://images.unsplash.com/photo-1543781534-1c4b787d55d2?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&h=600&fit=crop&ixid=MnwzNTY3MHwwfDF8c2VhcmNofDE4fHx1bml2ZXJzaXR5fGVufDB8fHx8MTY4NTQ3NjQxNg", imageAlt: "Georgian National University campus" },
             { id: "people-students", name: "Vibrant Student Life", price: "Global Campuses", imageSrc: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&h=600&fit=crop&ixid=MnwzNTY3MHwwfDF8c2VhcmNofDExfHxzdHVkZW50JTIwZ3JvdXB8ZW58MHx8fHwxNjg1NDc2MzY5", imageAlt: "Students in a group discussion" },
             { id: "place-armenia", name: "Armenian Highlands", price: "Yerevan, Armenia", imageSrc: "http://img.b2bpic.net/free-photo/nature-mountain-landscape-background-mountains-clouds-horizon-sunny-day-travel-concept-generative-ai_188544-11440.jpg", imageAlt: "Mount Ararat view from Armenia" },
-            { id: "uni-uae", name: "UAE University", price: "Al Ain, UAE", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780954029021-xlgasag3.jpg", imageAlt: "UAE University campus" }
+            { id: "uni-uae", name: "UAE University", price: "Al Ain, UAE", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780954029021-xlgasag3.jpg?_wi=1", imageAlt: "UAE University campus" }
           ]}
           gridVariant="three-columns-all-equal-width"
           animationType="slide-up"
@@ -135,10 +135,10 @@ export default function LandingPage() {
           products={[
             { id: "car-mercedes", name: "Luxury SUV (Mercedes-Benz)", price: "From $250/day", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780940128106-ih7465my.jpg", imageAlt: "White Mercedes-Benz E-Class" },
             { id: "car-bmw", name: "Executive Sedan (BMW)", price: "From $120/day", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780940254844-mer8pkc6.jpg", imageAlt: "Black BMW 5 Series" },
-            { id: "car-audi", name: "Premium (Audi)", price: "From $100/day", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780954029021-xlgasag3.jpg", imageAlt: "Silver Audi A6" },
+            { id: "car-audi", name: "Premium (Audi)", price: "From $100/day", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780954029021-xlgasag3.jpg?_wi=2", imageAlt: "Silver Audi A6" },
             { id: "car-toyota", name: "Standard Sedan (Toyota)", price: "From $60/day", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780954295619-xabm7irb.webp", imageAlt: "White Toyota Camry" },
             { id: "car-nissan", name: "SUV (Nissan)", price: "From $180/day", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780954495822-rh66hgvs.webp", imageAlt: "Grey Nissan Altima" },
-            { id: "tour-dubai", name: "Dubai City Tour Package", price: "From $300", imageSrc: "http://img.b2bpic.net/free-photo/long-range-shot-two-cars-parked-top-sand-dunes-with-clear-blue-sky-sunny-day_181624-2899.jpg", imageAlt: "Dubai skyline with Burj Khalifa" },
+            { id: "tour-dubai", name: "Dubai City Tour Package", price: "From $300", imageSrc: "http://img.b2bpic.net/free-photo/long-range-shot-two-cars-parked-top-sand-dunes-with-clear-blue-sky-sunny-day_181624-2899.jpg?_wi=2", imageAlt: "Dubai skyline with Burj Khalifa" },
             { id: "tour-georgia", name: "Georgian Mountain Escape", price: "From $500", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780955088592-x1g4shqc.jpg", imageAlt: "Scenic view of Georgian mountains" }
           ]}
           gridVariant="two-columns-alternating-heights"
