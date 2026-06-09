@@ -48,7 +48,7 @@ export default function LandingPage() {
             { name: "FAQ", id: "#faq" },
             { name: "Contact", id: "#contact" }
           ]}
-          button={{ text: "Get a Quote", href: "#contact" }}
+          button={{ text: "Get a Quote", href: "https://wa.me/message/6T4GLQJPF5S2J1" }}
         />
       </div>
       <div id="home" data-section="home">
@@ -67,7 +67,7 @@ export default function LandingPage() {
           tagIcon={Globe}
           buttons={[
             { text: "Explore Services", href: "#services" },
-            { text: "Contact Us", href: "#contact" }
+            { text: "Contact Us", href: "https://wa.me/message/6T4GLQJPF5S2J1" }
           ]}
           avatars={[
             { src: "http://img.b2bpic.net/free-photo/positive-shaved-head-male-dressed-grey-suit-dark-grey-background_613910-11352.jpg", alt: "John Doe" },
@@ -201,8 +201,8 @@ export default function LandingPage() {
           title="Ready to Start Your Global Journey?"
           description="Whether for studies, travel, or mobility, our team is here to assist you. Contact us today for personalized support. You can also reach us directly at +995595156470."
           buttons={[
-            { text: "Send a Message", href: "mailto:info@oxin.com" },
-            { text: "Call Us", href: "tel:+995595156470" }
+            { text: "Send a Message", href: "https://wa.me/message/6T4GLQJPF5S2J1" },
+            { text: "Call Us", href: "https://wa.me/message/6T4GLQJPF5S2J1" }
           ]}
           background={{ variant: "sparkles-gradient" }}
           useInvertedBackground={false}
