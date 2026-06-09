@@ -186,7 +186,7 @@ export default function LandingPage() {
       <div id="social-proof" data-section="social-proof">
         <SocialProofOne
           names={[
-            "Global Universities",            "International Airlines",            "Luxury Car Brands",            "Visa & Immigration Partners",            "Education Platforms",            "Premium Hotel Chains",            "Financial Institutions"
+            "Global Universities",            "International Airlines",            ""Luxury Car Brands"",            "Visa & Immigration Partners",            "Education Platforms",            "Premium Hotel Chains",            "Financial Institutions"
           ]}
           title="Our Esteemed Partners"
           description="Collaborating with leading institutions and brands to deliver excellence in every service we provide."
@@ -213,7 +213,8 @@ export default function LandingPage() {
           columns={[
             { title: "Services", items: [{ label: "Student Admissions", href: "#services" }, { label: "Student Consultancy", href: "#services" }, { label: "Tourism", href: "#destinations" }, { label: "Rent a Car", href: "#destinations" }] },
             { title: "Company", items: [{ label: "About Us", href: "#about" }, { label: "Testimonials", href: "#testimonials" }, { label: "Our Partners", href: "#social-proof" }, { label: "Contact Us", href: "#contact" }] },
-            { title: "Legal", items: [{ label: "Privacy Policy", href: "#" }, { label: "Terms of Service", href: "#" }] }
+            { title: "Legal", items: [{ label: "Privacy Policy", href: "#" }, { label: "Terms of Service", href: "#" }] },
+            { title: "Social", items: [{ label: "Instagram", href: "https://www.instagram.com/oxin_intl/" }] }
           ]}
           logoText="Oxin International Group"
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780938897129-l5emtpc4.png"
