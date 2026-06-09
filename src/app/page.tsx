@@ -78,7 +78,7 @@ export default function LandingPage() {
             { src: "http://img.b2bpic.net/free-photo/portrait-jolly-car-dealership-agent-hired-respond-client-inquiries_482257-118268.jpg", alt: "Emily White" }
           ]}
           avatarText="Trusted by hundreds worldwide"
-          imageSrc="http://img.b2bpic.net/free-photo/full-shot-friends-traveling-together_52683-126499.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ErXI6G61gcAkoaNMmdyIHdKyiK/uploaded-1780980984095-xr3uvy94.jpg"
           imageAlt="Students with luggage in airport with global map overlay"
           mediaAnimation="slide-up"
           imagePosition="right"
